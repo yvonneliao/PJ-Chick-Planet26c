@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Chick-Planet.unity
+    guid: f6df5a1fc30de410daae60eb186a58fd
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 16aa87d3c30054f2c8f95730d53406d5, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2b5c22111c57145c9bd9cd774ba5f645, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: d12b4ef54f84a4e0f9b590daabd3cf97, type: 2}
   m_UseUCBPForAssetBundles: 0
