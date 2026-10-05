@@ -15,17 +15,23 @@ public class VRJump : MonoBehaviour
 
     void Update()
     {
-        if (_myController.isGrounded)
+        if (_myController.isGrounded && _myVerticalVelocity < 0)
         {
-            _myVerticalVelocity = -0.5f; 
+            _myVerticalVelocity = -2f; 
+        }
 
-            if (OVRInput.GetDown(OVRInput.Button.One)) 
-            {
-                _myVerticalVelocity = _myJumpForce;
-            }
+        if (OVRInput.GetDown(OVRInput.Button.One) && _myController.isGrounded)
+        {
+            _myVerticalVelocity = _myJumpForce;
         }
 
         _myVerticalVelocity -= _myGravity * Time.deltaTime;
+        
+        if (_myVerticalVelocity < -15f)
+        {
+            _myVerticalVelocity = -15f; 
+        }
+
         Vector3 _myJumpMovement = new Vector3(0, _myVerticalVelocity, 0);
         _myController.Move(_myJumpMovement * Time.deltaTime);
     }
