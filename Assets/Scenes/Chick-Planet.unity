@@ -1943,6 +1943,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
       insertIndex: -1
       addedObject: {fileID: 154136485}
+    - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 154136488}
   m_SourcePrefab: {fileID: 100100000, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
 --- !u!4 &154136483 stripped
 Transform:
@@ -1966,6 +1969,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &154136488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154136484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  _fadeDuration: 2
+  _targetScale: 3
 --- !u!1001 &158331676
 PrefabInstance:
   m_ObjectHideFlags: 0

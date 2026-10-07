@@ -40,5 +40,11 @@ public class myLaserShooter : MonoBehaviour
         {
             _particles.Play();
         }
+
+        myChickHealth _health = _other.GetComponent<myChickHealth>();
+        if (_health != null)
+        {
+            _health._takeHit();
+        }
     }
 }
