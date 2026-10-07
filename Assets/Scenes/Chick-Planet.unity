@@ -8478,7 +8478,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 0
   serializedVersion: 2
@@ -16927,6 +16927,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1197092875}
   - component: {fileID: 1197092876}
+  - component: {fileID: 1197092878}
+  - component: {fileID: 1197092879}
   - component: {fileID: 1197092877}
   m_Layer: 0
   m_Name: LeftControllerAnchor
@@ -16964,6 +16966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   _controller: 1
   _lineRenderer: {fileID: 1197092877}
+  _laserCollider: {fileID: 0}
   _laserLength: 20
 --- !u!120 &1197092877
 LineRenderer:
@@ -17075,6 +17078,54 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
+--- !u!65 &1197092878
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197092874}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.1005085, y: 0.9999999, z: 1.2203727}
+  m_Center: {x: 121.62383, y: -44.299995, z: -145.58295}
+--- !u!54 &1197092879
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197092874}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1199516239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27906,6 +27957,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1928741938}
   - component: {fileID: 1928741939}
+  - component: {fileID: 1928741941}
+  - component: {fileID: 1928741942}
   - component: {fileID: 1928741940}
   m_Layer: 0
   m_Name: RightControllerAnchor
@@ -27944,6 +27997,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::myLaserShooter
   _controller: 2
   _lineRenderer: {fileID: 1928741940}
+  _laserCollider: {fileID: 1928741941}
   _laserLength: 20
 --- !u!120 &1928741940
 LineRenderer:
@@ -28055,6 +28109,54 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
+--- !u!65 &1928741941
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928741937}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.1005085, y: 0.9999999, z: 1.2203727}
+  m_Center: {x: 121.62383, y: -44.299995, z: -145.58295}
+--- !u!54 &1928741942
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928741937}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1941140894 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
