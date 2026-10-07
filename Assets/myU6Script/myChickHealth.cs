@@ -4,8 +4,8 @@ using Unity.VisualScripting;
 
 public class myChickHealth : MonoBehaviour
 {
-    [SerializeField] private float _fadeDuration = 1f;
-    [SerializeField] private float _targetScale = 2f;
+    // [SerializeField] private float _fadeDuration = 1f;
+    // [SerializeField] private float _targetScale = 2f;
 
     private int _hitCount = 0;
     private bool _isDying = false;
@@ -26,15 +26,17 @@ public class myChickHealth : MonoBehaviour
     {
         Transform _parentTransform = transform.parent;
         Vector3 _startScale = _parentTransform.localScale;
-        Vector3 _finalScale = _startScale * _targetScale;
+
+        float _duration = myChickManager._instance._fadeDuration;
+        Vector3 _finalScale = _startScale * myChickManager._instance._targetScale;
+
         Renderer[] _renderers = _parentTransform.GetComponentsInChildren<Renderer>();
-
         float _elapsedTime = 0f;
-
-        while (_elapsedTime < _fadeDuration)
+        
+        while (_elapsedTime < _duration)
         {
             _elapsedTime += Time.deltaTime;
-            float _t = Mathf.Clamp01(_elapsedTime / _fadeDuration);
+            float _t = Mathf.Clamp01(_elapsedTime / _duration);
             
             _parentTransform.localScale = Vector3.Lerp(_startScale, _finalScale, _t);
             

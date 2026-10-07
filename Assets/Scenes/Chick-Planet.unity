@@ -195,6 +195,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 402521406}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 402521409}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &532774 stripped
 Transform:
@@ -348,6 +351,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 979320355}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 979320358}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &12881900 stripped
 Transform:
@@ -434,6 +440,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1243187601}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1243187604}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &18221376 stripped
 Transform:
@@ -598,6 +607,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1959736352}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1959736355}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &25954099 stripped
 Transform:
@@ -621,6 +633,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &28742946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28742939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &36391454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -791,6 +815,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1941140898}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1941140901}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &42193106 stripped
 Transform:
@@ -927,6 +954,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &66215050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66215043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &74101302
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1129,6 +1168,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &88722185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88722178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &97775037 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -1146,6 +1197,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &97775044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97775037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &99890115
 GameObject:
   m_ObjectHideFlags: 0
@@ -1308,6 +1371,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &127358205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127358198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &127427610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1388,6 +1463,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 127358202}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 127358205}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &127427611 stripped
 Transform:
@@ -1411,6 +1489,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &129800001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129799994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &137826990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1491,6 +1581,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1030872146}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1030872149}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &137826991 stripped
 Transform:
@@ -1569,6 +1662,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1762934872}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1762934875}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &144075252 stripped
 Transform:
@@ -1655,6 +1751,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1404375369}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1404375372}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &147943614 stripped
 Transform:
@@ -1849,6 +1948,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 421260880}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 421260883}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &154040175 stripped
 Transform:
@@ -1981,8 +2083,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  _fadeDuration: 2
-  _targetScale: 3
 --- !u!1001 &158331676
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2438,6 +2538,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &179054919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179054912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &179489249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2522,6 +2634,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1694876329}
+    - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1694876332}
   m_SourcePrefab: {fileID: 100100000, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
 --- !u!4 &179489250 stripped
 Transform:
@@ -2704,6 +2819,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 97775041}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 97775044}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &188809812 stripped
 Transform:
@@ -2727,6 +2845,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &194051754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194051747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &199500714
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3296,6 +3426,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &237033545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 237033538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &237578877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3496,6 +3638,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 955778918}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 955778921}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &239553044 stripped
 Transform:
@@ -3519,6 +3664,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &245181099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245181092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &248085492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3583,6 +3740,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1916673206}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1916673209}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &248085493 stripped
 Transform:
@@ -3606,6 +3766,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &254093031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254093024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &269044864
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3916,6 +4088,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1457769818}
+    - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1457769821}
   m_SourcePrefab: {fileID: 100100000, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
 --- !u!4 &281436398 stripped
 Transform:
@@ -4240,6 +4415,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 665598757}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 665598760}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &292621312 stripped
 Transform:
@@ -4310,6 +4488,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 245181096}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 245181099}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &295673108 stripped
 Transform:
@@ -4540,6 +4721,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
       insertIndex: -1
       addedObject: {fileID: 777452147}
+    - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 777452150}
   m_SourcePrefab: {fileID: 100100000, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
 --- !u!4 &322589711 stripped
 Transform:
@@ -4610,6 +4794,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 839657337}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 839657340}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &327242970 stripped
 Transform:
@@ -4680,6 +4867,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2018498178}
+    - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2018498181}
   m_SourcePrefab: {fileID: 100100000, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
 --- !u!4 &327868676 stripped
 Transform:
@@ -5421,6 +5611,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1214508582}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1214508585}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &366778329 stripped
 Transform:
@@ -5436,6 +5629,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 370178265}
+  - component: {fileID: 370178266}
   m_Layer: 0
   m_Name: ALL-CHICKS
   m_TagString: Untagged
@@ -5568,6 +5762,20 @@ Transform:
   - {fileID: 746046328}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &370178266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370178264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad8a2c39e89054286a576f10d721f377, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  _fadeDuration: 1
+  _targetScale: 3
 --- !u!1001 &372655217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5825,6 +6033,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 874222997}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 874223000}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &375705455 stripped
 Transform:
@@ -5911,6 +6122,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 428732865}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 428732868}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &378153574 stripped
 Transform:
@@ -5989,6 +6203,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 564906681}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 564906684}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &381361009 stripped
 Transform:
@@ -6161,6 +6378,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 415307502}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 415307505}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &394300840 stripped
 Transform:
@@ -6184,6 +6404,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &402521409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402521402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &403901683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6414,6 +6646,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &415307505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415307498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &421260876 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -6431,6 +6675,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &421260883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421260876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &428732861 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
@@ -6448,6 +6704,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &428732868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428732861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &432008232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6523,14 +6791,14 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7756679021878226411, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 7756679021908091821, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1337427984}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1182074606}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1182074609}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &432008233 stripped
 Transform:
@@ -6636,6 +6904,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &451541940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451541933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &460455128
 GameObject:
   m_ObjectHideFlags: 0
@@ -6829,6 +7109,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1559349929}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1559349932}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &467392413 stripped
 Transform:
@@ -6997,6 +7280,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 497136069}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 497136072}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &474632014 stripped
 Transform:
@@ -7296,6 +7582,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &492019770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492019763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &497136065 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
@@ -7313,6 +7611,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &497136072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497136065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &509740932
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7393,6 +7703,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 548319713}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 548319716}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &509740933 stripped
 Transform:
@@ -7416,6 +7729,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &510006520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510006513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &512037066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8075,6 +8400,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &539484463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539484456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &540062071
 GameObject:
   m_ObjectHideFlags: 0
@@ -8252,6 +8589,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 967863043}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 967863046}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &544292371 stripped
 Transform:
@@ -8332,6 +8672,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &548319716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548319709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &552920171
 GameObject:
   m_ObjectHideFlags: 0
@@ -8667,6 +9019,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 866219898}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 866219901}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &561601327 stripped
 Transform:
@@ -8690,6 +9045,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &564906684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564906677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &575377228
 GameObject:
   m_ObjectHideFlags: 0
@@ -8867,6 +9234,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 658805930}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 658805933}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &577510612 stripped
 Transform:
@@ -9093,6 +9463,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &618710885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618710878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &624067022
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9173,6 +9555,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1577529201}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1577529204}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &624067023 stripped
 Transform:
@@ -9337,6 +9722,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1419861046}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1419861049}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &630610570 stripped
 Transform:
@@ -9654,6 +10042,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1088973052}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1088973055}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &643734948 stripped
 Transform:
@@ -10000,6 +10391,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &658805933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658805926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &659941137 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -10017,6 +10420,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &659941144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659941137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &663170162
 GameObject:
   m_ObjectHideFlags: 0
@@ -10067,6 +10482,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &665598760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665598753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &669859017 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
@@ -10084,6 +10511,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &669859024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669859017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &675118529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10164,6 +10603,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2017992570}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2017992573}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &675118530 stripped
 Transform:
@@ -10300,6 +10742,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &680342360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680342353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &682882128 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -10317,6 +10771,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &682882135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682882128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &689842576
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10509,6 +10975,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1284916389}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1284916392}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &690752421 stripped
 Transform:
@@ -10579,6 +11048,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1459191130}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1459191133}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &696415226 stripped
 Transform:
@@ -10649,6 +11121,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1226577011}
+    - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1226577014}
   m_SourcePrefab: {fileID: 100100000, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
 --- !u!4 &700839041 stripped
 Transform:
@@ -10739,6 +11214,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1005939338}
+    - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1005939341}
   m_SourcePrefab: {fileID: 100100000, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
 --- !u!4 &702047840 stripped
 Transform:
@@ -10937,6 +11415,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1578811848}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1578811851}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &716410092 stripped
 Transform:
@@ -11023,6 +11504,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1208349493}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1208349496}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &718695048 stripped
 Transform:
@@ -11105,6 +11589,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1524340933}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1524340936}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &741443405 stripped
 Transform:
@@ -11128,6 +11615,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &741627514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741627507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &745056309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11320,6 +11819,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1519411182}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1519411185}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &746046328 stripped
 Transform:
@@ -11527,6 +12029,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1926947851}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1926947854}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &758212174 stripped
 Transform:
@@ -11613,6 +12118,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2133402494}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2133402497}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &766329921 stripped
 Transform:
@@ -11791,6 +12299,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
       insertIndex: -1
       addedObject: {fileID: 680342357}
+    - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 680342360}
   m_SourcePrefab: {fileID: 100100000, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
 --- !u!4 &766930535 stripped
 Transform:
@@ -11877,6 +12388,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2141118553}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2141118556}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &767493271 stripped
 Transform:
@@ -12094,6 +12608,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &777452150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777452143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &790712420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12256,6 +12782,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2082956472}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2082956475}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &822732713 stripped
 Transform:
@@ -12676,6 +13205,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &839657340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839657333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &843024889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12992,6 +13533,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &851977981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851977974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &866219894 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -13009,6 +13562,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &866219901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866219894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &870480092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13178,6 +13743,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &874223000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874222993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &880138492 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -13195,6 +13772,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &880138499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880138492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &885752434 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
@@ -13212,6 +13801,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &885752441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885752434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &890774444 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -13229,6 +13830,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &890774451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890774444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &896650930
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13293,6 +13906,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1024875785}
+    - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1024875788}
   m_SourcePrefab: {fileID: 100100000, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
 --- !u!4 &896650931 stripped
 Transform:
@@ -13316,6 +13932,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &898472541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898472534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &911250575
 GameObject:
   m_ObjectHideFlags: 0
@@ -13680,6 +14308,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &955778921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955778914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &960727958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13969,6 +14609,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &967863046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967863039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &968731574
 GameObject:
   m_ObjectHideFlags: 0
@@ -14370,6 +15022,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &979320358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979320351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &979581361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14434,6 +15098,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1362047138}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1362047141}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &979581362 stripped
 Transform:
@@ -14520,6 +15187,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 492019767}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 492019770}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &980373896 stripped
 Transform:
@@ -14703,6 +15373,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1923293975}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1923293978}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &988764917 stripped
 Transform:
@@ -14726,6 +15399,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1005939341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005939334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1010682652
 GameObject:
   m_ObjectHideFlags: 0
@@ -14934,6 +15619,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1911705473}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1911705476}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1017701759 stripped
 Transform:
@@ -15039,6 +15727,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1024875788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024875781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1026111996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15119,6 +15819,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2096629567}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2096629570}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1026111997 stripped
 Transform:
@@ -15142,6 +15845,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1030872149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030872142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1042665872
 GameObject:
   m_ObjectHideFlags: 0
@@ -15272,6 +15987,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1049282878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049282871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1055429068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15494,6 +16221,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1076538224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076538217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1077519459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15622,6 +16361,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1088973055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088973048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1099775419 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -15639,6 +16390,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1099775426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099775419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1106470259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15711,6 +16474,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 898472538}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 898472541}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &1106470260 stripped
 Transform:
@@ -15792,14 +16558,14 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7756679021878226411, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 7756679021908091821, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1995948718}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 28742943}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 28742946}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &1113843106 stripped
 Transform:
@@ -15886,6 +16652,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 237033542}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 237033545}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1113997407 stripped
 Transform:
@@ -15909,6 +16678,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1128253214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128253207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1130942125
 GameObject:
   m_ObjectHideFlags: 0
@@ -16020,6 +16801,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1245605348}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1245605351}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &1136682555 stripped
 Transform:
@@ -16106,6 +16890,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 88722182}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 88722185}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1138630420 stripped
 Transform:
@@ -16176,6 +16963,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
       insertIndex: -1
       addedObject: {fileID: 66215047}
+    - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 66215050}
   m_SourcePrefab: {fileID: 100100000, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
 --- !u!4 &1142565583 stripped
 Transform:
@@ -16246,6 +17036,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1849187272}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1849187275}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1149532314 stripped
 Transform:
@@ -16332,6 +17125,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2115316065}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2115316068}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1149977436 stripped
 Transform:
@@ -16601,6 +17397,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 682882132}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 682882135}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1164065662 stripped
 Transform:
@@ -16788,135 +17587,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3598458758992822614, guid: 88608009b47104df9b92664e6e729807, type: 3}
   m_PrefabInstance: {fileID: 1169517878}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1178767417
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1178767418}
-  - component: {fileID: 1178767419}
-  m_Layer: 0
-  m_Name: sound-C (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1178767418
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1178767417}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 1249864629}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1178767419
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1178767417}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: f1df62739c06add4486d3f3de6ec1b00, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1182074602 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
@@ -16934,6 +17604,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1182074609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182074602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1197092874
 GameObject:
   m_ObjectHideFlags: 0
@@ -17221,135 +17903,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 599696922572670076, guid: 9779a468eab1b44938530faee1c27cfa, type: 3}
   m_PrefabInstance: {fileID: 1199516239}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1206133550
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1206133551}
-  - component: {fileID: 1206133552}
-  m_Layer: 0
-  m_Name: sound-C (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1206133551
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206133550}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 1721208824}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1206133552
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206133550}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: f1df62739c06add4486d3f3de6ec1b00, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1208349489 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
@@ -17367,6 +17920,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1208349496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208349489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1210315511
 GameObject:
   m_ObjectHideFlags: 0
@@ -17497,6 +18062,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1214508585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214508578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1221579174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17573,6 +18150,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1128253211}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1128253214}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1221579175 stripped
 Transform:
@@ -17754,6 +18334,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1226577014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226577007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1228873244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17818,6 +18410,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 741627511}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 741627514}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1228873245 stripped
 Transform:
@@ -17908,6 +18503,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1667925860}
+    - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1667925863}
   m_SourcePrefab: {fileID: 100100000, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
 --- !u!4 &1230238122 stripped
 Transform:
@@ -17931,6 +18529,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1239869925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239869918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1243187597 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -17948,6 +18558,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1243187604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243187597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1243637374
 GameObject:
   m_ObjectHideFlags: 0
@@ -18059,6 +18681,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1245605351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245605344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1247624327 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
@@ -18076,6 +18710,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1247624334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247624327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1249864628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18155,14 +18801,14 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7756679021878226411, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 7756679021908091821, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1178767418}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2042491008}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2042491011}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &1249864629 stripped
 Transform:
@@ -18498,6 +19144,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1284916392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284916385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1300448753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18570,6 +19228,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1304875815}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1304875818}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &1300448754 stripped
 Transform:
@@ -18721,6 +19382,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1304875818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304875811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1314472738 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -18738,6 +19411,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1314472745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314472738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1315074824
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18974,135 +19659,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320188797}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1337427983
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1337427984}
-  - component: {fileID: 1337427985}
-  m_Layer: 0
-  m_Name: sound-C (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1337427984
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1337427983}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 432008233}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1337427985
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1337427983}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: f1df62739c06add4486d3f3de6ec1b00, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1343122208
 GameObject:
   m_ObjectHideFlags: 0
@@ -19293,6 +19849,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1692094769}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1692094772}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1348669227 stripped
 Transform:
@@ -19363,6 +19922,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1314472742}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1314472745}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1356878095 stripped
 Transform:
@@ -19386,6 +19948,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1362047141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362047134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1389026289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19466,6 +20040,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 880138496}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 880138499}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1389026290 stripped
 Transform:
@@ -19552,6 +20129,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 885752438}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 885752441}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &1393236452 stripped
 Transform:
@@ -19688,6 +20268,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1404375372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404375365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1404961455
 GameObject:
   m_ObjectHideFlags: 0
@@ -20262,6 +20854,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1422836533}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1422836536}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &1416755998 stripped
 Transform:
@@ -20285,6 +20880,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1419861049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419861042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1422836529 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
@@ -20302,6 +20909,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1422836536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422836529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1425797969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20692,6 +21311,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 851977978}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 851977981}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &1451054526 stripped
 Transform:
@@ -20715,6 +21337,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1457769821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457769814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1459191126 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -20732,6 +21366,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1459191133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459191126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1465284835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20921,6 +21567,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1482123720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482123713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1485011175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21059,6 +21717,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2013154882}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2013154885}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1486814501 stripped
 Transform:
@@ -21129,6 +21790,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1482123717}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1482123720}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1487228688 stripped
 Transform:
@@ -21230,6 +21894,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1492553365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492553358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1498535594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21449,6 +22125,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1519411185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519411178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1520160206 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -21466,6 +22154,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1520160213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520160206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1521111962 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -21483,6 +22183,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1521111969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521111962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1521848569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21578,6 +22290,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1524340936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524340929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1527153737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22286,6 +23010,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1559349932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559349925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1570030880
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22350,6 +23086,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1634792135}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1634792138}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1570030881 stripped
 Transform:
@@ -22373,6 +23112,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1577529204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577529197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1578811844 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -22390,6 +23141,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1578811851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578811844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1599281697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22474,6 +23237,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1049282875}
+    - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1049282878}
   m_SourcePrefab: {fileID: 100100000, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
 --- !u!4 &1599281698 stripped
 Transform:
@@ -22607,6 +23373,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1607364905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607364898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1618607543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22765,6 +23543,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 129799998}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 129800001}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1620085951 stripped
 Transform:
@@ -22851,6 +23632,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1247624331}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1247624334}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &1621289233 stripped
 Transform:
@@ -23011,6 +23795,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1521111966}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1521111969}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1632296901 stripped
 Transform:
@@ -23034,6 +23821,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1634792138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634792131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1635083117 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -23051,6 +23850,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1635083124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635083117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1639303319
 GameObject:
   m_ObjectHideFlags: 0
@@ -23414,6 +24225,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2130249759}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2130249762}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1660232800 stripped
 Transform:
@@ -23437,6 +24251,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1667925863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667925856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1676408573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23613,6 +24439,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 539484460}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 539484463}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1677047156 stripped
 Transform:
@@ -23636,6 +24465,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1679237678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679237671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1686710628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23716,6 +24557,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 194051751}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 194051754}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &1686710629 stripped
 Transform:
@@ -24161,6 +25005,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1692094772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692094765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1693612966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24388,6 +25244,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1694876332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694876325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1700892020
 GameObject:
   m_ObjectHideFlags: 0
@@ -24694,6 +25562,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2128957617}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2128957620}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &1711431154 stripped
 Transform:
@@ -24775,14 +25646,14 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7756679021878226411, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 7756679021908091821, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1206133551}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1787672554}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1787672557}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &1721208824 stripped
 Transform:
@@ -24919,6 +25790,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1723336262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723336255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1728277545
 GameObject:
   m_ObjectHideFlags: 0
@@ -25110,6 +25993,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 890774448}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 890774451}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1731981070 stripped
 Transform:
@@ -25262,6 +26148,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1966641404}
+    - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1966641407}
   m_SourcePrefab: {fileID: 100100000, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
 --- !u!4 &1742704587 stripped
 Transform:
@@ -25609,6 +26498,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1762934875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762934868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1768947051
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25712,6 +26613,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1772884262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772884255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1776424180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25784,6 +26697,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1772884259}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1772884262}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &1776424181 stripped
 Transform:
@@ -25854,6 +26770,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 659941141}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 659941144}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1776708439 stripped
 Transform:
@@ -25877,6 +26796,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1777655494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777655487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1787006893
 GameObject:
   m_ObjectHideFlags: 0
@@ -26007,6 +26938,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1787672557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787672550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1790720150
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26083,6 +27026,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1239869922}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1239869925}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1790720151 stripped
 Transform:
@@ -26247,6 +27193,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 451541937}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 451541940}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1794582942 stripped
 Transform:
@@ -26497,6 +27446,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1076538221}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1076538224}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1802314144 stripped
 Transform:
@@ -26583,6 +27535,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1679237675}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1679237678}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &1803344786 stripped
 Transform:
@@ -27211,6 +28166,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2074106131}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2074106134}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &1841027196 stripped
 Transform:
@@ -27234,6 +28192,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1849187275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849187268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1850155513
 GameObject:
   m_ObjectHideFlags: 0
@@ -27890,6 +28860,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2103144573}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2103144576}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &1909470050 stripped
 Transform:
@@ -27913,6 +28886,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1911705476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911705469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1916673202 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -27930,6 +28915,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1916673209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916673202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1923293971 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -27947,6 +28944,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1923293978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923293971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1926947847 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -27964,6 +28973,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1926947854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926947847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1928741937
 GameObject:
   m_ObjectHideFlags: 0
@@ -28191,6 +29212,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1941140901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941140894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1952675676
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28290,6 +29323,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1959736355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959736348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &1964154067
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28389,6 +29434,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &1966641407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966641400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &1981865484
 GameObject:
   m_ObjectHideFlags: 0
@@ -28555,135 +29612,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993315696}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1995948717
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1995948718}
-  - component: {fileID: 1995948719}
-  m_Layer: 0
-  m_Name: sound-C (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1995948718
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1995948717}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 1113843106}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1995948719
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1995948717}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: f1df62739c06add4486d3f3de6ec1b00, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1001 &1998634140
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28764,6 +29692,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1492553362}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1492553365}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &1998634141 stripped
 Transform:
@@ -28992,6 +29923,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &2013154885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013154878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &2013344513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29146,6 +30089,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 254093028}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 254093031}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &2015442469 stripped
 Transform:
@@ -29169,6 +30115,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &2017992573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017992566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &2018498174 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
@@ -29186,6 +30144,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &2018498181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018498174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &2022589090
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29807,6 +30777,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &2042491011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042491004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &2053789240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29956,6 +30938,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1099775423}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1099775426}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &2056797817 stripped
 Transform:
@@ -29979,6 +30964,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &2074106134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074106127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &2075078652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30063,6 +31060,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1723336259}
+    - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1723336262}
   m_SourcePrefab: {fileID: 100100000, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
 --- !u!4 &2075078653 stripped
 Transform:
@@ -30171,6 +31171,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
       insertIndex: -1
       addedObject: {fileID: 669859021}
+    - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 669859024}
   m_SourcePrefab: {fileID: 100100000, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
 --- !u!4 &2082187641 stripped
 Transform:
@@ -30194,6 +31197,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &2082956475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082956468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &2085805405
 GameObject:
   m_ObjectHideFlags: 0
@@ -30302,6 +31317,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1520160210}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1520160213}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &2088762556 stripped
 Transform:
@@ -30411,6 +31429,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &2096629570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096629563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &2100251598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30491,6 +31521,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1777655491}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1777655494}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &2100251599 stripped
 Transform:
@@ -30514,6 +31547,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &2103144576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103144569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &2103334509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30617,6 +31662,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &2115316068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115316061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &2116944131
 GameObject:
   m_ObjectHideFlags: 0
@@ -30747,6 +31804,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &2128957620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128957613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &2130249755 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
@@ -30764,6 +31833,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &2130249762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130249755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &2133402490 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
@@ -30781,6 +31862,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &2133402497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133402490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1 &2136212269
 GameObject:
   m_ObjectHideFlags: 0
@@ -31086,6 +32179,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1635083121}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1635083124}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &2140766936 stripped
 Transform:
@@ -31109,6 +32205,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9efb7492dd2143b9884ce542eb19196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickTrigger
+--- !u!114 &2141118556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141118549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
 --- !u!1001 &2142190215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31189,6 +32297,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1607364902}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1607364905}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &2142190216 stripped
 Transform:
@@ -31259,6 +32370,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 510006517}
+    - targetCorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 510006520}
   m_SourcePrefab: {fileID: 100100000, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
 --- !u!4 &614570326960874288 stripped
 Transform:
@@ -31605,6 +32719,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
       insertIndex: -1
       addedObject: {fileID: 618710882}
+    - targetCorrespondingSourceObject: {fileID: 6447988774018715965, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 618710885}
   m_SourcePrefab: {fileID: 100100000, guid: 7b54b248caac74b0ab4241429f7f1229, type: 3}
 --- !u!4 &6447988775334645269 stripped
 Transform:
@@ -31687,6 +32804,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 179054916}
+    - targetCorrespondingSourceObject: {fileID: 7756679021878226413, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 179054919}
   m_SourcePrefab: {fileID: 100100000, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
 --- !u!4 &7756679021478039479 stripped
 Transform:
