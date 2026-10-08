@@ -18,6 +18,7 @@ public class myChickHealth : MonoBehaviour
         if (_hitCount >= 3)
         {
             _isDying = true;
+<<<<<<< HEAD
 
             AudioSource _audio = transform.parent.GetComponentInChildren<AudioSource>(true);
             if (_audio != null && _audio.clip != null)
@@ -31,6 +32,8 @@ public class myChickHealth : MonoBehaviour
                 Destroy(_tempAudio, _audio.clip.length);
             }
 
+=======
+>>>>>>> parent of 34df27b (Wed 20261007 16:02. Sounds of all chicks: V)
             StartCoroutine(_deathAnimation());
         }
     }
