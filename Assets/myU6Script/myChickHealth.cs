@@ -17,37 +17,16 @@ public class myChickHealth : MonoBehaviour
         if (_hitCount >= 3)
         {
             _isDying = true;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-            AudioSource _audio = transform.parent.GetComponentInChildren<AudioSource>(true);
-=======
 
             AudioSource _audio = transform.parent.GetComponentInChildren<AudioSource>();
->>>>>>> parent of 48d73b5 (Revert "Wed 20261007 16:02. Sounds of all chicks: V")
             if (_audio != null && _audio.clip != null)
             {
-                GameObject _tempAudio = new GameObject("TempAudio");
-                AudioSource _newSource = _tempAudio.AddComponent<AudioSource>();
-                _newSource.clip = _audio.clip;
-<<<<<<< HEAD
-                _newSource.spatialBlend = 0f; 
-=======
-                _newSource.spatialBlend = 0f;
->>>>>>> parent of 48d73b5 (Revert "Wed 20261007 16:02. Sounds of all chicks: V")
-                _newSource.volume = _audio.volume;
-                _newSource.Play();
-                Destroy(_tempAudio, _audio.clip.length);
+                _audio.transform.SetParent(null);
+                _audio.Play();
+                Destroy(_audio.gameObject, _audio.clip.length);
+                // AudioSource.PlayClipAtPoint(_audio.clip, transform.position);
             }
 
-<<<<<<< HEAD
-=======
->>>>>>> parent of 34df27b (Wed 20261007 16:02. Sounds of all chicks: V)
-=======
->>>>>>> parent of 48d73b5 (Revert "Wed 20261007 16:02. Sounds of all chicks: V")
-=======
->>>>>>> parent of caf6cee (Wed 20261007 17:27. After revert (before fix Left controller laser))
             StartCoroutine(_deathAnimation());
         }
     }
