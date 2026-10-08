@@ -40,6 +40,21 @@ public class myChickHealth : MonoBehaviour
         Vector3 _finalScale = _startScale * myChickManager._instance._targetScale;
         
         Renderer[] _renderers = _parentTransform.GetComponentsInChildren<Renderer>();
+        
+        // Switch materials to Transparent only when fading begins
+        foreach (Renderer _renderer in _renderers)
+        {
+            foreach (Material _mat in _renderer.materials)
+            {
+                _mat.SetFloat("_Surface", 1f); // 1 = Transparent
+                _mat.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+                _mat.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+                _mat.SetInt("_ZWrite", 0);
+                _mat.renderQueue = (int)UnityEngine.Rendering.RenderQueue.Transparent;
+                _mat.EnableKeyword("_SURFACE_TYPE_TRANSPARENT");
+            }
+        }
+        
         float _elapsedTime = 0f;
 
         while (_elapsedTime < _duration)
