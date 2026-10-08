@@ -19,6 +19,7 @@ public class myChickHealth : MonoBehaviour
             _isDying = true;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             AudioSource _audio = transform.parent.GetComponentInChildren<AudioSource>(true);
 =======
@@ -45,6 +46,8 @@ public class myChickHealth : MonoBehaviour
 >>>>>>> parent of 34df27b (Wed 20261007 16:02. Sounds of all chicks: V)
 =======
 >>>>>>> parent of 48d73b5 (Revert "Wed 20261007 16:02. Sounds of all chicks: V")
+=======
+>>>>>>> parent of caf6cee (Wed 20261007 17:27. After revert (before fix Left controller laser))
             StartCoroutine(_deathAnimation());
         }
     }
