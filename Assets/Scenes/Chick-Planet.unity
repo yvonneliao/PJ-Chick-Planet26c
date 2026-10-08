@@ -30388,7 +30388,7 @@ MonoBehaviour:
   _controller: 1
   _lineRenderer: {fileID: 1197092877}
   _laserCollider: {fileID: 1197092878}
-  _laserLength: 20
+  _laserLength: 10
 --- !u!120 &1197092877
 LineRenderer:
   serializedVersion: 3
@@ -44925,7 +44925,7 @@ MonoBehaviour:
   _controller: 2
   _lineRenderer: {fileID: 1928741940}
   _laserCollider: {fileID: 1928741941}
-  _laserLength: 20
+  _laserLength: 10
 --- !u!120 &1928741940
 LineRenderer:
   serializedVersion: 3
