@@ -3,9 +3,6 @@ using System.Collections;
 
 public class myChickHealth : MonoBehaviour
 {
-    // [SerializeField] private float _fadeDuration = 1f;
-    // [SerializeField] private float _targetScale = 2f;
-
     private int _hitCount = 0;
     private bool _isDying = false;
 
@@ -18,13 +15,16 @@ public class myChickHealth : MonoBehaviour
         {
             _isDying = true;
 
-            AudioSource _audio = transform.parent.GetComponentInChildren<AudioSource>();
+            AudioSource _audio = transform.parent.GetComponentInChildren<AudioSource>(true);
             if (_audio != null && _audio.clip != null)
             {
-                _audio.transform.SetParent(null);
-                _audio.Play();
-                Destroy(_audio.gameObject, _audio.clip.length);
-                // AudioSource.PlayClipAtPoint(_audio.clip, transform.position);
+                GameObject _tempAudio = new GameObject("TempAudio");
+                AudioSource _newSource = _tempAudio.AddComponent<AudioSource>();
+                _newSource.clip = _audio.clip;
+                _newSource.spatialBlend = 0f; 
+                _newSource.volume = _audio.volume;
+                _newSource.Play();
+                Destroy(_tempAudio, _audio.clip.length);
             }
 
             StartCoroutine(_deathAnimation());
@@ -35,20 +35,20 @@ public class myChickHealth : MonoBehaviour
     {
         Transform _parentTransform = transform.parent;
         Vector3 _startScale = _parentTransform.localScale;
-
+        
         float _duration = myChickManager._instance._fadeDuration;
         Vector3 _finalScale = _startScale * myChickManager._instance._targetScale;
-
+        
         Renderer[] _renderers = _parentTransform.GetComponentsInChildren<Renderer>();
         float _elapsedTime = 0f;
-        
+
         while (_elapsedTime < _duration)
         {
             _elapsedTime += Time.deltaTime;
             float _t = Mathf.Clamp01(_elapsedTime / _duration);
-            
+
             _parentTransform.localScale = Vector3.Lerp(_startScale, _finalScale, _t);
-            
+
             foreach (Renderer _renderer in _renderers)
             {
                 foreach (Material _mat in _renderer.materials)

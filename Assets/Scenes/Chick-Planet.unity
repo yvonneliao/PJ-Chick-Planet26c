@@ -46547,7 +46547,6 @@ GameObject:
   - component: {fileID: 2036389636}
   - component: {fileID: 2036389635}
   - component: {fileID: 2036389634}
-  - component: {fileID: 2036389641}
   - component: {fileID: 2036389640}
   m_Layer: 8
   m_Name: '[BuildingBlock] Camera Rig'
@@ -46745,20 +46744,6 @@ CharacterController:
   m_SkinWidth: 0.31
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2036389641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2036389633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f05b5edcbfc484180808c4ad1ea50152, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VRJump
-  _myJumpForce: 7
-  _myGravity: 8
 --- !u!1001 &2037898696
 PrefabInstance:
   m_ObjectHideFlags: 0
