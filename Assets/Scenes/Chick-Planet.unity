@@ -4249,7 +4249,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4397664628265918113, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.095
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4397664628265918113, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17665,7 +17665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   _controller: 1
   _lineRenderer: {fileID: 1197092877}
-  _laserCollider: {fileID: 0}
+  _laserCollider: {fileID: 1197092878}
   _laserLength: 20
 --- !u!120 &1197092877
 LineRenderer:
@@ -30631,7 +30631,7 @@ Transform:
   m_GameObject: {fileID: 2036389633}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.66580313, z: -0, w: 0.74612755}
-  m_LocalPosition: {x: 130.85, y: 44.3, z: 137.85}
+  m_LocalPosition: {x: 130.85, y: 44.4, z: 137.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -30663,7 +30663,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.31
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1.5, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2036389641
 MonoBehaviour:
   m_ObjectHideFlags: 0
