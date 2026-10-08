@@ -5774,7 +5774,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad8a2c39e89054286a576f10d721f377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  _fadeDuration: 1.5
+  _fadeDuration: 1
   _targetScale: 3
 --- !u!1001 &372655217
 PrefabInstance:
@@ -10149,7 +10149,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &648759309
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10163,7 +10163,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 2cebe5ef59f447d4d803665e3ecf1a2f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.125
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -20804,15 +20804,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7756679021908091821, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.51
+      value: 20.590004
       objectReference: {fileID: 0}
     - target: {fileID: 7756679021908091821, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.23
+      value: 0.12999725
       objectReference: {fileID: 0}
     - target: {fileID: 7756679021908091821, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.99
+      value: 8.43
       objectReference: {fileID: 0}
     - target: {fileID: 7756679021908091821, guid: 092c3cdd50ba943bd84e33212f42bd38, type: 3}
       propertyPath: m_LocalRotation.w

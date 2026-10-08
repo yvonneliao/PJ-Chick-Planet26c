@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class myChickHealth : MonoBehaviour
 {
@@ -17,19 +18,6 @@ public class myChickHealth : MonoBehaviour
         if (_hitCount >= 3)
         {
             _isDying = true;
-
-            AudioSource _audio = transform.parent.GetComponentInChildren<AudioSource>();
-            if (_audio != null && _audio.clip != null)
-            {
-                GameObject _tempAudio = new GameObject("TempAudio");
-                AudioSource _newSource = _tempAudio.AddComponent<AudioSource>();
-                _newSource.clip = _audio.clip;
-                _newSource.spatialBlend = 0f;
-                _newSource.volume = _audio.volume;
-                _newSource.Play();
-                Destroy(_tempAudio, _audio.clip.length);
-            }
-
             StartCoroutine(_deathAnimation());
         }
     }
