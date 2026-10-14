@@ -3,6 +3,7 @@ using System.Collections;
 
 public class myChickHealth : MonoBehaviour
 {
+    // [SerializeField] private GameObject _flavorPrefab;
     private int _hitCount = 0;
     private bool _isDying = false;
 
@@ -14,6 +15,18 @@ public class myChickHealth : MonoBehaviour
         if (_hitCount >= 3)
         {
             _isDying = true;
+
+            // if (_flavorPrefab != null)
+            // {
+            //     Instantiate(_flavorPrefab, transform.position, Quaternion.identity);
+            // }
+
+            GameObject _randomFlavor = myChickManager._instance._getRandomFlavor();
+            if (_randomFlavor != null)
+            {
+                Vector3 _spawnPosition = transform.position + new Vector3(0f, myChickManager._instance._flavorYOffset, 0f); // Adjust the Y offset as needed
+                Instantiate(_randomFlavor, _spawnPosition, Quaternion.identity);
+            }
 
             AudioSource _audio = transform.parent.GetComponentInChildren<AudioSource>(true);
             if (_audio != null && _audio.clip != null)
