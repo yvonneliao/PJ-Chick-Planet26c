@@ -16,16 +16,12 @@ public class myChickHealth : MonoBehaviour
         {
             _isDying = true;
 
-            // if (_flavorPrefab != null)
-            // {
-            //     Instantiate(_flavorPrefab, transform.position, Quaternion.identity);
-            // }
-
+            GameObject _spawnedFlavor = null;
             GameObject _randomFlavor = myChickManager._instance._getRandomFlavor();
             if (_randomFlavor != null)
             {
                 Vector3 _spawnPosition = transform.position + new Vector3(0f, myChickManager._instance._flavorYOffset, 0f); // Adjust the Y offset as needed
-                Instantiate(_randomFlavor, _spawnPosition, Quaternion.identity);
+                Instantiate(_randomFlavor, _spawnPosition, _randomFlavor.transform.rotation);
             }
 
             AudioSource _audio = transform.parent.GetComponentInChildren<AudioSource>(true);
@@ -40,11 +36,11 @@ public class myChickHealth : MonoBehaviour
                 Destroy(_tempAudio, _audio.clip.length);
             }
 
-            StartCoroutine(_deathAnimation());
+            StartCoroutine(_deathAnimation(_spawnedFlavor));
         }
     }
 
-    private IEnumerator _deathAnimation()
+    private IEnumerator _deathAnimation(GameObject _flavorInstance)
     {
         Transform _parentTransform = transform.parent;
         Vector3 _startScale = _parentTransform.localScale;
@@ -91,6 +87,11 @@ public class myChickHealth : MonoBehaviour
             }
 
             yield return null;
+        }
+
+        if (_flavorInstance != null)
+        {
+            Destroy(_flavorInstance);
         }
 
         Destroy(_parentTransform.gameObject);
