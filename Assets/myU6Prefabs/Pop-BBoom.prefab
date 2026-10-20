@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 4527775460722580485}
   - component: {fileID: 7510258918917540185}
   m_Layer: 0
-  m_Name: Fried-XX-LowPoly1k-Low
+  m_Name: Fried-BBoom-LowPoly1k-Low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 5364328489762540898}
   - component: {fileID: 2501606065427480236}
   m_Layer: 0
-  m_Name: xx-txt
+  m_Name: BBoom-txt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -328,7 +328,7 @@ GameObject:
   - component: {fileID: 7225280561399478980}
   - component: {fileID: 6051743893342934602}
   m_Layer: 0
-  m_Name: Fried-XX-LowPoly1k-High
+  m_Name: Fried-BBoom-LowPoly1k-High
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
