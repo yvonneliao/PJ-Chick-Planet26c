@@ -119,6 +119,95 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &147479749
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1481357662585065143, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481357662585065143, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481357662585065143, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481357662585065143, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481357662585065143, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481357662585065143, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481357662585065143, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481357662585065143, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481357662585065143, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481357662585065143, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2190661830590527019, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_Name
+      value: Pop-Gangjeong2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549837491348131616, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362752121268847019, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.90147525
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362752121268847019, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.012046271
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362752121268847019, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.41293684
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362752121268847019, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.12915297
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362752121268847019, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -7.376
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362752121268847019, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 48.381
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362752121268847019, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 12.989
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92edf305436b2419bb553c62d46dc6a3, type: 3}
 --- !u!1001 &217056810
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -766,6 +855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pop-Galbi
       objectReference: {fileID: 0}
+    - target: {fileID: 8993939376781544240, guid: 57d8d409f8eda4956a25c9218216f5c1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9176154647314729525, guid: 57d8d409f8eda4956a25c9218216f5c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -823,3 +916,4 @@ SceneRoots:
   - {fileID: 5961995453835351480}
   - {fileID: 217056810}
   - {fileID: 6567968420159961431}
+  - {fileID: 147479749}
