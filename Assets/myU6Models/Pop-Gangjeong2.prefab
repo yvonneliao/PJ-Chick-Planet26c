@@ -139,7 +139,7 @@ Transform:
   m_GameObject: {fileID: 601517086446534505}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.258819, z: 0, w: 0.9659259}
-  m_LocalPosition: {x: -0.03091097, y: 0, z: -0.034464423}
+  m_LocalPosition: {x: -0.03091097, y: 0, z: -0.03446442}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -303,7 +303,7 @@ GameObject:
   - component: {fileID: 2594141810233948379}
   - component: {fileID: 7789523159305019761}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: Animate-Low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 1214752125375956057}
   - component: {fileID: 8312927823913191942}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Animate-High
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
