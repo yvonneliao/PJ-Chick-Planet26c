@@ -847,9 +847,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pop-BBoom
       objectReference: {fileID: 0}
+    - target: {fileID: 2726120036953898448, guid: 4390a29f3673e4fc8b30143d7024a405, type: 3}
+      propertyPath: m_Name
+      value: Fried-BBoom-LowPoly1k-Low
+      objectReference: {fileID: 0}
     - target: {fileID: 5868489550143319223, guid: 4390a29f3673e4fc8b30143d7024a405, type: 3}
       propertyPath: m_Name
       value: BBoom-txt
+      objectReference: {fileID: 0}
+    - target: {fileID: 9170918818999933713, guid: 4390a29f3673e4fc8b30143d7024a405, type: 3}
+      propertyPath: m_Name
+      value: Fried-BBoom-LowPoly1k-High
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
