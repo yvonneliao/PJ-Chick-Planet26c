@@ -37561,13 +37561,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561331398}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.07217597, y: -0.81777775, z: 0.061229564, w: 0.567698}
-  m_LocalPosition: {x: 17.87, y: -0.49, z: 3.47}
+  m_LocalRotation: {x: -0.074175484, y: -0.7984139, z: 0.058791403, w: 0.5946234}
+  m_LocalPosition: {x: 15.4, y: -0.54, z: 2.55}
   m_LocalScale: {x: 0.37001997, y: 7.62059, z: 12.813857}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 663170163}
-  m_LocalEulerAnglesHint: {x: 1.043, y: -110.365, z: 10.813}
+  m_LocalEulerAnglesHint: {x: 0.325, y: -106.615, z: 10.857}
 --- !u!65 &1561331400
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37614,7 +37614,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: e79124f6a80ed4f0d861a9a464e970ef, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -37776,7 +37776,7 @@ VideoPlayer:
   m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
 --- !u!1001 &1570030880
@@ -46012,6 +46012,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff210a430878a4c1a80e4cf83cdd8b1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myChickHealth
+--- !u!1 &1945265658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1945265659}
+  - component: {fileID: 1945265661}
+  - component: {fileID: 1945265660}
+  m_Layer: 0
+  m_Name: StylShip_StairsTop-Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1945265659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945265658}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5945428, y: 0.0634751, z: 0.0032816187, w: 0.8015479}
+  m_LocalPosition: {x: 18.51, y: 0.18, z: 4.76}
+  m_LocalScale: {x: 1.9933116, y: 13.49906, z: 0.923167}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2140030896}
+  m_LocalEulerAnglesHint: {x: -72.464, y: 18.951, z: -13.476}
+--- !u!65 &1945265660
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945265658}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1945265661
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945265658}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1952675676
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49566,6 +49628,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1551886582}
+  - {fileID: 1945265659}
   - {fileID: 646805338}
   - {fileID: 1694802172}
   m_Father: {fileID: 0}
