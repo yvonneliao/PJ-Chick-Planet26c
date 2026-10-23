@@ -23986,6 +23986,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4148778239110795873, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4156531248400985505, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -29716,13 +29720,14 @@ GameObject:
   - component: {fileID: 740754880}
   - component: {fileID: 740754879}
   - component: {fileID: 740754878}
+  - component: {fileID: 740754884}
   m_Layer: 8
-  m_Name: '[BuildingBlock] Camera Rig-inBoat'
-  m_TagString: Untagged
+  m_Name: '[BuildingBlock] Camera Rig-Temp-inBoat'
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!143 &740754878
 CharacterController:
   m_ObjectHideFlags: 0
@@ -29903,15 +29908,42 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 740754877}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9998581, z: -0, w: -0.016848832}
-  m_LocalPosition: {x: 94.3, y: 44.3, z: -1.6}
+  m_LocalRotation: {x: -0, y: 0.9983517, z: -0, w: 0.05739201}
+  m_LocalPosition: {x: 95.52, y: 44.97, z: 9.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1271501317}
   - {fileID: 675089412}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 181.931, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 173.42, z: 0}
+--- !u!54 &740754884
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740754877}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &741443404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33074,7 +33106,9 @@ GameObject:
   - component: {fileID: 893605324}
   - component: {fileID: 893605323}
   - component: {fileID: 893605322}
-  m_Layer: 0
+  - component: {fileID: 893605325}
+  - component: {fileID: 893605326}
+  m_Layer: 9
   m_Name: VideoTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33090,8 +33124,8 @@ Transform:
   m_GameObject: {fileID: 893605320}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.074033156, z: -0, w: 0.9972558}
-  m_LocalPosition: {x: 5.76, y: 0.93, z: 12.41}
-  m_LocalScale: {x: 46.37, y: 9.27, z: 0.31857002}
+  m_LocalPosition: {x: 5.07, y: -0.32, z: 8.81}
+  m_LocalScale: {x: 41.74, y: 6.64, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 663170163}
@@ -33125,9 +33159,9 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893605320}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -33174,6 +33208,47 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893605320}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &893605325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893605320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc5fe7087cbfd4f40a9a995f64ecd325, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myVideoTrigger
+  _video: {fileID: 1561331404}
+  _audio: {fileID: 1561331405}
+--- !u!54 &893605326
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893605320}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &896650930
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33610,7 +33685,7 @@ GameObject:
   - component: {fileID: 949153506}
   m_Layer: 8
   m_Name: TrackingSpace
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40521,7 +40596,7 @@ GameObject:
   - component: {fileID: 1271501317}
   m_Layer: 8
   m_Name: TrackingSpace
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45554,9 +45629,9 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
-  m_Looping: 1
+  m_Looping: 0
   m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -45572,10 +45647,10 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 7c53ce9aca1d44a3f9313cd3b5ce5051, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -46116,7 +46191,7 @@ GameObject:
   - component: {fileID: 1602422678}
   m_Layer: 0
   m_Name: Teleport Physics Blocker
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55713,13 +55788,14 @@ GameObject:
   - component: {fileID: 2036389635}
   - component: {fileID: 2036389634}
   - component: {fileID: 2036389640}
+  - component: {fileID: 2036389641}
   m_Layer: 8
   m_Name: '[BuildingBlock] Camera Rig'
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2036389634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55909,6 +55985,33 @@ CharacterController:
   m_SkinWidth: 0.31
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2036389641
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036389633}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &2037898696
 PrefabInstance:
   m_ObjectHideFlags: 0
