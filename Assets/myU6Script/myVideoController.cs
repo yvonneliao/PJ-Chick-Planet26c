@@ -26,7 +26,7 @@ public class myVideoController : MonoBehaviour
             _timeText.text = _FormatTime(_timeRemaining);
 
             // Syncs the text automatically whether triggered by the wall or a click.
-            _buttonText.text = _video.isPlaying ? "pause" : "play";
+            _buttonText.text = _video.isPlaying ? "||" : ">";
         }
     }
 
