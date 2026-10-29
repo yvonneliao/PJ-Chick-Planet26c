@@ -3,7 +3,7 @@ using UnityEngine;
 public class myFlavorTrigger : MonoBehaviour
 {
     [SerializeField] private string _flavorId;
-    [SerializeField] private float _destroyDelay = 7f;
+    [SerializeField] private float _destroyDelay = 10f;
 
     private void Start()
     {

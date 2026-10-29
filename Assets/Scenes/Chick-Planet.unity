@@ -43384,7 +43384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   _scoreIcon: {fileID: 1530966574}
   _scoreNumber: {fileID: 208390003}
-  _beatDuration: 0.2
+  _beatDuration: 0.14
 --- !u!1 &1362047134 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614570327165700753, guid: b11b7a198fbe943cba5152c03f9e417c, type: 3}
