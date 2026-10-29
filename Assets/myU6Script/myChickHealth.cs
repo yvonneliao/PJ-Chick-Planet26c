@@ -16,10 +16,7 @@ public class myChickHealth : MonoBehaviour
         {
             _isDying = true;
 
-            // if (_flavorPrefab != null)
-            // {
-            //     Instantiate(_flavorPrefab, transform.position, Quaternion.identity);
-            // }
+            Object.FindFirstObjectByType<myScoreManager>()?._addScore();
 
             GameObject _randomFlavor = myChickManager._instance._getRandomFlavor();
             if (_randomFlavor != null)
