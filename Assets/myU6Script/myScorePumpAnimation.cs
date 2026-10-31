@@ -52,11 +52,11 @@ public class myScorePumpAnimation : MonoBehaviour
     private IEnumerator _playHeartbeatAnimation()
     {
         // First pump: +20% -> Normal
-        yield return StartCoroutine(_scaleTo(1.35f, _beatDuration));
+        yield return StartCoroutine(_scaleTo(1.50f, _beatDuration));
         yield return StartCoroutine(_scaleTo(1.00f, _beatDuration));
 
         // Second pump: +10% -> Normal
-        yield return StartCoroutine(_scaleTo(1.15f, _beatDuration));
+        yield return StartCoroutine(_scaleTo(1.25f, _beatDuration));
         yield return StartCoroutine(_scaleTo(1.00f, _beatDuration));
 
         _pumpCoroutine = null;
